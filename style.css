@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+h1{
+    color: green;
+    margin-left: 40%;
+}
+div{
+    text-align: center;
+}
+input, button{
+    background-color: black;
+    border: 1px dashed lightgreen;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgreen;
+}
+
+input:focus-visible{
+    outline: 0;
+}
+
+button{
+    background-color: lightgreen;
+    color: black;
+    border: 1px dotted white;
+}
